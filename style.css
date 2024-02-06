@@ -1,3 +1,6 @@
+* {
+
+}
 body {
     background-color: #ffdc9c;
     font-family: 'Luckiest Guy', cursive;
@@ -46,18 +49,13 @@ body {
     position: relative;
     top: 175px;
     left: 550px;
-    animation: aeroplane 1.33s infinite;
 }
 
 
 /* Animations */
 @keyframes aeroplane {
-    0%{left: 550px;} 
+    0%{left: 550px;}
     100%{left: -50px;}
-}
-
-.jump-animation {
-    animation: jump 0.5s;
 }
 
 @keyframes jump {
@@ -66,3 +64,20 @@ body {
     75%{top: 75px;}
     100%{top: 225px;}
 }
+
+.jump-animation {
+    animation: jump 0.5s;
+}
+
+.aeroplane-animation {
+    animation: aeroplane 1.33s infinite;
+}
+
+#pressbtn {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+
+
