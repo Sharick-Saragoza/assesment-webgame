@@ -1,4 +1,4 @@
--- Things that aren't mine, but used in my webgame:
+-- Things that aren't mine, but used in my webgame
 
 Song: AdhesiveWombat - Night Shade ♫ NO COPYRIGHT 8-bit Music
 
